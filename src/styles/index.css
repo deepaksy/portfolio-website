@@ -1,7 +1,4 @@
-.dark{
-  --backgroundColor: #212121;
-  --textColor:aliceblue;
-}
+@import url('./colors.css');
 
 body{
     margin: 0;
