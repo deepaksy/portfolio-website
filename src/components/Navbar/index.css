@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+
+.navbar-contents{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: .1rem .3rem;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+}

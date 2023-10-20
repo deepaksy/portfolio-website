@@ -3,5 +3,6 @@
 body{
     margin: 0;
     background-color: var(--backgroundColor);
-    color: var(--textColor)
+    color: var(--textColor);
+    transition: background-color .3s ease-in;
   }

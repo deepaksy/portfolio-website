@@ -1,19 +1,18 @@
 .theme-button{
-    width: 80px;
-    height: 80px;
-    padding: 1rem 2rem;
-    margin: 1rem 2rem;
+    width: 50px;
+    height: 50px;
+    padding: .1rem .5rem;
     transition: width .5s ease-in-out, height .5s ease-in-out;
 }
 
 .theme-button:hover{
     cursor: pointer;
-    width: 78px;
-    height: 78px;
-    size: 1px;
+    /* width: 30px;
+    height: 30px;
+    size: 1px; */
 }
 
-.theme-button:active{
-    width: 60px;
-    height: 60px;
-}
+/* .theme-button:active{
+    width: 25px;
+    height: 25px;
+} */
