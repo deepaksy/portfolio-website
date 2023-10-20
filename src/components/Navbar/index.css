@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     align-items: center;
-    padding: .5rem 1rem;
+    padding: .1rem .5rem;
 }
 
 .navbar-contents{
@@ -9,7 +9,7 @@
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
-    margin: .1rem .3rem;
+    margin: 0rem .15rem;
 }
 
 .navbar-left{
@@ -20,4 +20,31 @@
 .navbar-right{
     display: flex;
     align-items: center;
+}
+
+
+@media only screen and (max-width:600px){
+    .navbar{
+        display: flex;
+        align-items: center;
+        padding: .1rem .5rem;
+    }
+    
+    .navbar-contents{
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+        align-items: center;
+        margin: .1rem .3rem;
+    }
+    
+    .navbar-left{
+        display: flex;
+        align-items: center;
+    }
+    
+    .navbar-right{
+        display: flex;
+        align-items: center;
+    }
 }

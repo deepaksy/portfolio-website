@@ -21,7 +21,7 @@ const pathVariants = {
   visible: {
     opacity: 1,
     pathLength: 1,
-    transition: {duration: 1, ease: "easeInOut"}
+    transition: {duration: 2.3, ease: "easeInOut"}
   }
 }
 
