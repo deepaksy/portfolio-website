@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.efd35c65.css",
+    "main.js": "/portfolio-website/static/js/main.1e2144ab.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio-website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Ubuntu-Regular.ttf": "/portfolio-website/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
+    "static/media/Ubuntu-Bold.ttf": "/portfolio-website/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
+    "static/media/deepak_logo.svg": "/portfolio-website/static/media/deepak_logo.4361d380ed8429a1bea7bb768071f7de.svg",
+    "index.html": "/portfolio-website/index.html",
+    "main.efd35c65.css.map": "/portfolio-website/static/css/main.efd35c65.css.map",
+    "main.1e2144ab.js.map": "/portfolio-website/static/js/main.1e2144ab.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio-website/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efd35c65.css",
+    "static/js/main.1e2144ab.js"
+  ]
+}
