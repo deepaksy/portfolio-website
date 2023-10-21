@@ -13,7 +13,6 @@ const useTheme = () => {
                 setIsDark(false)
                 storeThemePreference('light')
             }
-            console.log(`theme undefined`);
         }
         else{
             setIsDark(localStorage.getItem('theme')==='dark'?true:false)
