@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.c25dec32.css",
-    "main.js": "/portfolio-website/static/js/main.2fae035c.js",
+    "main.css": "/portfolio-website/static/css/main.d5760111.css",
+    "main.js": "/portfolio-website/static/js/main.ad91d00e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/day-mode.png": "/portfolio-website/static/media/day-mode.4d5ff14593e8e781b462.png",
+    "static/media/night-mode.png": "/portfolio-website/static/media/night-mode.8d0aee8c49eed6b99a17.png",
     "static/media/throne.png": "/portfolio-website/static/media/throne.536642cc6622c828df4d.png",
     "static/media/Ubuntu-Regular.ttf": "/portfolio-website/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
     "static/media/Ubuntu-Bold.ttf": "/portfolio-website/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
     "static/media/deepak_logo.svg": "/portfolio-website/static/media/deepak_logo.4361d380ed8429a1bea7bb768071f7de.svg",
     "index.html": "/portfolio-website/index.html",
-    "main.c25dec32.css.map": "/portfolio-website/static/css/main.c25dec32.css.map",
-    "main.2fae035c.js.map": "/portfolio-website/static/js/main.2fae035c.js.map",
+    "main.d5760111.css.map": "/portfolio-website/static/css/main.d5760111.css.map",
+    "main.ad91d00e.js.map": "/portfolio-website/static/js/main.ad91d00e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c25dec32.css",
-    "static/js/main.2fae035c.js"
+    "static/css/main.d5760111.css",
+    "static/js/main.ad91d00e.js"
   ]
 }
