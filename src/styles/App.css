@@ -1,3 +1,62 @@
 .App{
     text-align: center;
   }
+
+.name-title{
+  font-weight: 900;
+}
+
+.introduction{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-logo{
+  width: 500px;
+}
+
+.intro-image{
+  width: 500px;
+  filter: drop-shadow(13px 8px 66px var(--textColor));
+}
+
+@media only screen and (max-width:600px) {
+  .App::before{
+    content: '';
+    display: block;
+    height: 10vh;
+  }
+  .introduction{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .user-logo{
+    width: 300px;
+  }
+  .intro-image{
+    width: 360px;
+    filter: drop-shadow(13px 8px 66px var(--textColor));
+  }
+  
+}
+
+
+@media only screen and (max-width:300px) {
+  .App::before{
+    content: '';
+    display: block;
+    height: 10vh;
+  }
+  .introduction{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .user-logo{
+    width: 250px;
+  }
+}

@@ -5,13 +5,13 @@ import './themeButton.css'
 import {motion} from 'framer-motion'
 
 
-const svgVariants ={
-  hidden: {rotate: -180},
-  visible: {
-    rotate: 0,
-    transition: {duration: 1}
-  }
-}
+// const svgVariants ={
+//   hidden: {rotate: -180},
+//   visible: {
+//     rotate: 0,
+//     transition: {duration: 1}
+//   }
+// }
 
 const pathVariants = {
   hidden: {
@@ -21,7 +21,7 @@ const pathVariants = {
   visible: {
     opacity: 1,
     pathLength: 1,
-    transition: {duration: 1, ease: "easeInOut"}
+    transition: {duration: 2.3, ease: "easeInOut"}
   }
 }
 

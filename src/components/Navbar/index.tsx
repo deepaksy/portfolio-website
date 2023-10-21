@@ -6,7 +6,6 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className='navbar-contents'>
         <div className='navbar-left'>
-          <p>Deepak Suryawanshi</p>
         </div>
         <div className='navbar-right'>
           <ThemeButton/>

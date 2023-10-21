@@ -1,3 +1,4 @@
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import reportWebVitals from './reportWebVitals'
 import './styles/index.css'
@@ -10,7 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   // <React.StrictMode>
     <AppRouter/>
-  // </React.StrictMode>
+  // {/* </React.StrictMode> */}
 )
 
 reportWebVitals();

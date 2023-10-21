@@ -2,4 +2,8 @@
     --backgroundColor: #212121;
     --textColor:aliceblue;
   }
-  
+
+:root{
+  --backgroundColor: aliceblue;
+    --textColor:#212121;
+}
