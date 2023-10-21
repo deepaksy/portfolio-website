@@ -11,12 +11,12 @@ import Feedback from './pages/Feedback'
 
 const AppRouter = () => {
   return (
-    <Router>
+    <Router basename='portfolio-website'>
       <Navbar/> 
-        <Routes>
+        <Routes >
             <Route path='/' element={<App/>}/>
-            {/* <Route path='/about' element={<About/>}/> */}
-            {/* <Route path='/feedback' element={<Feedback/>}/> */}
+            <Route path='/about' element={<About/>}/>
+            <Route path='/feedback' element={<Feedback/>}/>
         </Routes>
     </Router>
   )
