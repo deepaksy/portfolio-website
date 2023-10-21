@@ -1,8 +1,10 @@
 @import url('./colors.css');
+@import url('./fonts.css');
 
 body{
     margin: 0;
     background-color: var(--backgroundColor);
     color: var(--textColor);
     transition: background-color .3s ease-in;
+    font-family: ubuntu-bold;
   }
