@@ -10,7 +10,15 @@
     right: 0;
     text-align: center;
     min-height: 2rem;
-    background-color: pink;
+    background-color: #232323;
+    box-shadow:  -3px 18px 17px var(--textColor);
+}
+
+.bottom-navbar::after{
+    content: '';
+    display:block;
+    min-height: 4rem;
+    background-color: green;
 }
 
 
@@ -19,5 +27,22 @@
     .bottom-navbar{
         display: flex;
         visibility: visible;
+        align-items: center;
+        flex-grow: 1;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        min-height: 2rem;
+        background-color: #232323;
+        box-shadow:  0px 14px 20px 20px  var(--textColor);
     }
+}
+
+.bottom-navbar-button{
+    padding: .9rem 1rem;
+    margin: .2rem .2rem;
+
 }
