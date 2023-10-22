@@ -8,7 +8,7 @@ import dayMode from '../../assets/day-mode.png'
 const ThemeButton = () => {
   const {isDark,toggleTheme} = useTheme()
   return (
-    <img className='theme-button' alt='theme-button' aria-label='theme-button' src={isDark?dayMode:nightMode} onClick={()=>toggleTheme()}/>
+    <img title={isDark?'light mode':'darkmode'} className='theme-button' alt='theme-button' aria-label='theme-button' src={isDark?dayMode:nightMode} onClick={()=>toggleTheme()}/>
   )
 }
 
