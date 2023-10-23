@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './index.css'
+import {Link as ScrollLink} from 'react-scroll'
 
 const navLinks = [
   {name:'Home',path:'/'},
@@ -15,6 +16,7 @@ const ButtonNavbar = () => {
             <Link to={path}> <button className='bottom-navbar-button' key={i}>{name}</button></Link>
           )
         })}
+        <ScrollLink to='abc' spy smooth offset={100} duration={500}><button className='bottom-navbar-button'>Div</button></ScrollLink>
     </nav>
   )
 }
