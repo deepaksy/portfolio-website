@@ -1,0 +1,8 @@
+.home-icon{
+    font-size: 80px;
+    fill: black;
+}
+
+.home-icon:active{
+    fill: white;
+}
