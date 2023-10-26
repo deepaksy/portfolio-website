@@ -1,4 +1,4 @@
-import UseButtonClick from '../../helpers/ButtonCLick'
+import WithCounter from '../../helpers/hoc/WithCounter'
 
 
 
@@ -11,4 +11,4 @@ const TestComponent = ({count,incrementCount}:any):any => {
 }
 
 
-export default UseButtonClick(TestComponent)
+export default WithCounter(TestComponent)
