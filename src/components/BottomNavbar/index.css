@@ -21,7 +21,9 @@
     background-color: green;
 }
 
-
+.active{
+    background-color: pink;
+}
 
 @media only screen and (max-width:600px){
     .bottom-navbar{
@@ -38,6 +40,10 @@
         min-height: 2rem;
         background-color: #232323;
         box-shadow:  0px 14px 20px 20px  var(--textColor);
+    }
+
+    .active{
+        background-color: pink;
     }
 }
 
